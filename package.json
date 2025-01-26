@@ -1,0 +1,24 @@
+{
+  "name": "websiteui",
+  "version": "1.0.0",
+  "description": "The website at campusgeo.com",
+  "main": "index.js",
+  "scripts": {
+    "compile-html": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campus-geo/website-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/campus-geo/website-ui/issues"
+  },
+  "homepage": "https://github.com/campus-geo/website-ui#readme",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
