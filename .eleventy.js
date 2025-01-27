@@ -1,6 +1,8 @@
 const shortcodes = import("./src/_includes/components/shortcode.js");
 
 export default function(eleventyConfig) {
+    // process.env.X_VERSION || "unknown-development" Get version
+
     eleventyConfig.setInputDirectory("src");
     eleventyConfig.setIncludesDirectory('_includes');
     eleventyConfig.setLayoutsDirectory("_layouts");
